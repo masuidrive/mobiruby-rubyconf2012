@@ -17,11 +17,11 @@ Today I’d like to talk about MobiRuby, it’s my first English presentation.
 ## Hi! I'm @masuidrive
 
 ![slide 2](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.002-resized.jpg)
-![slide 4](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.004-resized.jpg)
+ ![slide 4](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.004-resized.jpg)
 
 Nice to meet you. I’m Yuichiro MASUI. 
-I came from Tokyo. 
 Please call me Ichi.
+I came from Tokyo. 
 My twitter and github account is masuidrive.
 
 I really love programming and write code anytime anywhere.
@@ -99,7 +99,7 @@ And mruby still alpha version. Sometimes I find mruby bugs.
 MobiRuby provides Ruby power to mobile devices.
 Especially mobile phones.
 
-Do you know “wax”? w-a-x.
+Do you know “wax”?
 It’s Lua based iOS application development toolchain. similar to MobiRuby. 
 
 Lua is popular language around embedded systems.
@@ -181,7 +181,7 @@ I will talk about MobiRuby internals.
 MobiRuby is made up of five components.
 
 
-## mruby - MobiRuby stack
+## mruby
 
 ![slide 13](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.013-resized.jpg)
 
@@ -189,7 +189,7 @@ mruby is main component of MobiRuby.
 It was patched, and some configuration changed.
 
 
-## mruby-cfunc - MobiRuby stack
+## mruby-cfunc
 
 ![slide 14](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.014-resized.jpg)
 
@@ -219,7 +219,7 @@ This component is independent from MobiRuby.
 If you want to use mruby-cfunc in your mruby project, You can use it.
 
 
-## mruby-cocoa - MobiRuby stack
+## mruby-cocoa
 
 ![slide 17](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.017-resized.jpg)
 
@@ -271,7 +271,7 @@ I’ll fix at some future. probably I’ll rewrite in assembler.
 
 
 
-## mobiruby-common - MobiRuby stack
+## mobiruby-common
 
 ![slide 21](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.021-resized.jpg)
 
@@ -405,7 +405,7 @@ I think CocoaPods will be a good partner.
 CocoaPods is library manager for Xcode.
 
 
-## Questions?
+### Questions?
 
 ![slide 32](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.032-resized.jpg)
 
