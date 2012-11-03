@@ -17,7 +17,6 @@ Today I’d like to talk about MobiRuby, it’s my first English presentation.
 ## Hi! I'm @masuidrive
 
 ![slide 2](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.002-resized.jpg)
-![slide 3](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.003-resized.jpg)
 ![slide 4](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.004-resized.jpg)
 
 Nice to meet you. I’m Yuichiro MASUI. 
