@@ -160,7 +160,7 @@ Is it non-sense? I think so, too.
 
 ## Next step
 
-![slide 11](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.010-resized.jpg)
+![slide 11](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.011-resized.jpg)
 
 I am aiming for this code on next version.
 It looks like truly Ruby code.
@@ -290,7 +290,7 @@ Currently, it provides ‘require’ and ‘load’ method only.
 Standard mruby doesn’t support require and load method.
 
 
-## mobiruby-ios - MobiRuby stack
+## mobiruby-ios
 
 ![slide 23](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.023-resized.jpg)
 
