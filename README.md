@@ -11,7 +11,7 @@
 
 ![slide 1](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.001-resized.jpg)
 
-Today I’d like to talk about MobiRuby, it’s my first English presentation.
+Today, I’d like to talk about MobiRuby.  It’s my first English presentation.
 
 
 ## Hi! I'm @masuidrive
@@ -21,20 +21,20 @@ Today I’d like to talk about MobiRuby, it’s my first English presentation.
 
 Nice to meet you. I’m Yuichiro MASUI. 
 Please call me Ichi.
-I came from Tokyo. 
-My twitter and github account is masuidrive.
+I come from Tokyo. 
+My twitter and github accounts are masuidrive.
 
-I really love programming and write code anytime anywhere.
+I really love programming and write code anytime, anywhere.
 Especially with the Ruby language.
 
-But my most popular Open source product is PHP based Wiki engine.
+But my most popular Open Source product is a PHP-based Wiki engine.
 
-Japanese Rubists know me as Furo-grammer. Furo means hot-tub. I’m coding while in the hot-tub.
+Japanese Rubyists know me as "Furo-grammer". Furo means hot-tub. I code while in the hot-tub.
 
-I’m working at Japanese startup FrogApps that has released food photo sharing app for iPhone and Android.
-But that app are not built on MobiRuby. there are native apps.
+I’m working at a Japanese startup called FrogApps that has released a food photo-sharing app for iPhone and Android.
+But that app is not built on MobiRuby. It is a native app.
 
-Until September, I had worked at Appcelerator what released Titanium Mobile. it’s Javascript based iOS/Android development framework.
+Until September, I had worked at Appcelerator, which released Titanium Mobile. It’s a Javascript-based iOS/Android development framework.
 
 
 ## What's MobiRuby?
@@ -42,24 +42,24 @@ Until September, I had worked at Appcelerator what released Titanium Mobile. it�
 ![slide 5](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.005-resized.jpg)
 
 
-But now I’m working on MobiRuby. It’s competitor of Titanium Mobile.
-MobiRuby is my private project, not business.
+But now I’m working on MobiRuby. It’s a competitor of Titanium Mobile.
+MobiRuby is my private project, not a business.
 
-MobiRuby is iOS app development environment built on mruby.
-You can create iOS app using Ruby.
-MobiRuby provides bridge between Cocoa and mruby.
-You call native Cocoa classes and functions instead of Objective-C.
+MobiRuby is an iOS app development environment built on mruby.
+You can create iOS apps using Ruby.
+MobiRuby provides a bridge between Cocoa and mruby.
+You can call native Cocoa classes and functions in Ruby, instead of using Objective-C.
 
-Currently, MobiRuby supported iOS only. But I have plan for Android version.
-I confirmed mruby can run on Android devices. 
+Currently, MobiRuby only supports iOS. But I have plan for an Android version.
+I have confirmed that mruby can run on Android devices. 
 
-I’ve already released MobiRuby based game app. 
+I’ve already released a MobiRuby-based game app. 
 
 [Demo]
 This puzzle game is built on MobiRuby and my Ruby code.
-It used UIImageView and UIAnimation.
+It uses a UIImageView and UIAnimation.
 
-It’s really smooth. same as native application.
+It’s really smooth, the same speed as a native application.
 [/Demo]
 
 You can download this application from iOS AppStore.
@@ -70,26 +70,24 @@ Please search for “mobiruby” in the store.
 
 ![slide 6](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.006-resized.jpg)
 
-mruby is latest Ruby implementation by Matz.
-I heard mruby for first time in 2010. At that time, it was called RiteVM.
+mruby is the latest Ruby implementation by Matz.
+I heard about mruby for the first time in 2010. At that time, it was called RiteVM.
 
-mruby is designed for embedded environments.
-It means small memory and modular structure.
+mruby is designed for embedded environments, which means it uses a smaller amount of memory and has a modular structure.
 
-mruby is more compact than other Ruby implements.
-On OSX, mruby binary is around 460 kilo bytes.  CRuby is over 2 mega bytes.
+mruby is more compact than other Ruby implementations.
+On OSX, the mruby binary is around 460 kilobytes.  CRuby is over 2 megabytes.
 
-mruby can be even smaller. mruby has modular structure.
-If you want to remove Math module, you can do it easily.
+mruby can be even smaller because it has a modular structure.
+If you want to remove the Math module, you can do so easily.
 
-So, mruby supports multiple virtual machines. CRuby doesn't support yet.
+So, mruby supports multiple virtual machines. CRuby doesn't support that yet.
 
-Instead, mruby has many limitations. mruby is built on ISO specification.
-It means mruby doesn’t support Thread and many classes.
-Almost, all Ruby standard libraries are not supported.
-So, Rubygems isn’t supported too.
+Still, mruby has many limitations. mruby is built on an ISO specification which means mruby doesn’t support Thread and many classes.
+Almost all Ruby standard libraries are not supported.
+So, Rubygems isn’t supported either.
 
-And mruby still alpha version. Sometimes I find mruby bugs.
+And mruby still alpha version. Sometimes, I find mruby bugs.
 
 
 ## Vision
@@ -100,28 +98,28 @@ MobiRuby provides Ruby power to mobile devices.
 Especially mobile phones.
 
 Do you know “wax”?
-It’s Lua based iOS application development toolchain. similar to MobiRuby. 
+It’s a Lua-based iOS application development toolchain, similar to MobiRuby. 
 
-Lua is popular language around embedded systems.
-The syntax is near ActionScript.
+Lua is a popular language for embedded systems.
+The syntax is similar to ActionScript.
 
-Wax was born about 3 years ago. but It isn’t popular yet.
-Why? The cause is Lua language. 
+Wax was born about 3 years ago, but it isn’t popular yet.
+Why? Because of the Lua language. 
 
 There bridge library is one of glue language.
-That needs for powerful language support.
+That needs powerful language support.
 I think Lua doesn’t have enough dynamic programming capabilities. 
 
-I think meta-programming is most important and powerful capability in Ruby.
-Ruby’s meta-programming can make good wrapping native libraries
-and make DSL for iOS.
+I think meta-programming is the most important and powerful capability of Ruby.
+Ruby’s meta-programming is good for wrapping native libraries
+and making a DSL for iOS.
 
 
 ## Hello world
 
 ![slide 8](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.008-resized.jpg)
 
-This is hello world code of MobiRuby.
+This is the hello world code for MobiRuby.
 
 iOS developers can understand this sample code.
 It’s really similar to Objective-C.
@@ -131,15 +129,14 @@ It’s really similar to Objective-C.
 
 ![slide 9](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.009-resized.jpg)
 
-In first half, the code defined new class MyAlertView that inherited from 
-UIAlertView Cocoa class.
+In the first half, the code defines a new class, MyAlertView, which inherits from the UIAlertView Cocoa class.
 
-And defined new delegate method through define method.
-mruby hasn’t support keyword arguments yet. It’s 2.0 feature.
+And defines a new delegate method through the define method.
+mruby doesn't support keyword arguments yet. It’s a 2.0 feature.
 And mruby’s hash is non-ordered. It’s same as Ruby 1.8.
 
-MyAlertView defined on Ruby code. So It’s Ruby class and Objective-C class.
-Ruby and Objective-C both side can touch to MyAlertView.
+MyAlertView is defined in Ruby code. So it’s a Ruby class and an Objective-C class.
+Both Ruby and Objective-C can access MyAlertView.
 
 
 
@@ -147,13 +144,13 @@ Ruby and Objective-C both side can touch to MyAlertView.
 
 ![slide 10](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.010-resized.jpg)
 
-In second half, created MyAlertView instance. and show this alert box.
+In the second half, I created a MyAlertView instance and show this alert box.
 
-When you call Objective-C method,
+When you call an Objective-C method,
 You need to start with underscores as the slide shows.
 
-On the current version, If you want iOS app on MobiRuby,
-You need to understand Objective-C and Cocoa libraries.
+In the current version, if you want to make an iOS app in MobiRuby,
+you need to understand Objective-C and Cocoa libraries.
 
 Is it non-sense? I think so, too.
 
@@ -162,13 +159,13 @@ Is it non-sense? I think so, too.
 
 ![slide 11](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.011-resized.jpg)
 
-I am aiming for this code on next version.
+I am aiming for this code in the next version.
 It looks like truly Ruby code.
 
-ActiveRecord wrapped SQL and provide good DSL to ruby programmers.
+ActiveRecord wrapped SQL and a good DSL for ruby programmers.
 So MobiRuby will wrap Cocoa libraries.
 
-First, I focus to make Cocoa bridge on mruby, it’s for baseline of MobiRuby.
+First, I will focus on making a Cocoa bridge in mruby, because it is the baseline for MobiRuby.
 After that, I’ll create new APIs.
 
 
@@ -176,7 +173,7 @@ After that, I’ll create new APIs.
 
 ![slide 12](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.012-resized.jpg)
 
-I will talk about MobiRuby internals.
+Now, I will talk about MobiRuby internals.
 
 MobiRuby is made up of five components.
 
@@ -186,25 +183,25 @@ MobiRuby is made up of five components.
 ![slide 13](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.013-resized.jpg)
 
 mruby is main component of MobiRuby.
-It was patched, and some configuration changed.
+It was patched, and some of the configurations were changed.
 
 
 ## mruby-cfunc
 
 ![slide 14](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.014-resized.jpg)
 
-first component is mruby-cfunc.
+The first component is mruby-cfunc.
 
-It’s an interface with C level function and mruby.
+It’s an interface between C-level functions and mruby.
 
 
 ## mruby-cfunc
 
 ![slide 15](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.015-resized.jpg)
 
-mruby-cfunc provides an interface to mruby and C level functions.
+mruby-cfunc provides an interface between mruby and C-level functions.
 
-It’s same as Ruby/DL library on CRuby.
+It’s the same as Ruby/DL library on CRuby.
 
 
 ## mruby-cfunc code
@@ -212,20 +209,20 @@ It’s same as Ruby/DL library on CRuby.
 ![slide 16](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.016-resized.jpg)
 
 This code calls the “puts” C function from Ruby.
-Internally, it converts Ruby string to C string, lookup puts function pointer and calls the function.
+Internally, it converts a Ruby string into a C string, looks up the puts function pointer and calls the function.
 
 mruby can call all C functions without specific extensions.
 This component is independent from MobiRuby.
-If you want to use mruby-cfunc in your mruby project, You can use it.
+If you want to use mruby-cfunc in your mruby project, you can use it.
 
 
 ## mruby-cocoa
 
 ![slide 17](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.017-resized.jpg)
 
-2nd component is mobiruby-cocoa.
+The 2nd component is mobiruby-cocoa.
 
-it’s an interface to Objective-C and Cocoa.
+It’s an interface between Objective-C and Cocoa.
 
 
 ## mruby-cocoa
@@ -234,20 +231,20 @@ it’s an interface to Objective-C and Cocoa.
 
 mruby-cocoa is bridge for Cocoa, which is the iOS and OSX framework.
 
-This library provide transparency communication with mruby and Cocoa.
+This library provides transparent communication between mruby and Cocoa.
 
 
 # Bridge Cocoa runtime
 
 ![slide 19](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.019-resized.jpg)
 
-mruby-cocoa provided create new instances of Cocoa Class on mruby.
-You can also inherit from existing Cocoa class on mruby.
+mruby-cocoa allows for the creation of new instances of Cocoa classes in mruby.
+You can also inherit from existing Cocoa classes in mruby.
 
-In earlier “hello world” sample, we inherited from UIAlertView to MyAlertView. UIAlertView is Cocoa class, and MyAlertView defined in Ruby.
-Cocoa and ruby class can manipulate transparency.
+In the earlier “hello world” sample, we inherited from UIAlertView to create MyAlertView. UIAlertView is a Cocoa class, and MyAlertView is defined in Ruby.
+Cocoa and ruby class can manipulate each other transparently.
 
-Natural interface, delegation and block functions supported in this library.
+Natural interface, delegation and block functions are supported in this library.
 
 
 
@@ -259,15 +256,15 @@ In this library, the hardest part is memory management.
 
 Objective-C uses reference counting. mruby uses mark & sweep.
 
-It’s hard to free object correctly in both environments.
+It’s hard to free objects correctly in both environments.
 
 Now, all Objective-C classes “release” method are overridden. 
 It’s an awful bottleneck for performance.
 
-It effects all Cocoa object that are included and not related with mruby object.
-It still have problem that it cannot detect circular reference.
+It effects all Cocoa objects that are included and are not related to mruby objects.
+It still has a problem that it cannot detect circular references.
 
-I’ll fix at some future. probably I’ll rewrite in assembler.
+I’ll fix it at some point in the future.  Probably I’ll rewrite it in assembler.
 
 
 
@@ -275,19 +272,19 @@ I’ll fix at some future. probably I’ll rewrite in assembler.
 
 ![slide 21](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.021-resized.jpg)
 
-4th component is mobiruby-common.
+The 4th component is mobiruby-common.
 
-it’s for future release when we will release Android  version.
+It’s for a future release when we will release the Android version.
 
 
 ## mobiruby-common
 
 ![slide 22](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.022-resized.jpg)
 
-This library provides common utilities among iOS and Android version.
+This library provides common utilities among iOS and Android.
 
-Currently, it provides ‘require’ and ‘load’ method only.
-Standard mruby doesn’t support require and load method.
+Currently, it provides ‘require’ and ‘load’ methods only.
+Standard mruby doesn’t support require or load methods.
 
 
 ## mobiruby-ios
@@ -302,19 +299,19 @@ The last component is mobiruby-ios.
 ![slide 24](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.024-resized.jpg)
 
 mobiruby-ios is the main part of MobiRuby.
-it provides iOS specific utilities that are included Xcode integration.
+It provides iOS specific utilities that are included for Xcode integration.
 
 In the first version, this component is poor.
-I don’t know Xcode deeply.
-I need help about Xcode configurations.
+I don’t know Xcode very deeply.
+I need help to understand how to configure Xcode.
 
 
 ## Wrapped APIs
 
 ![slide 25](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.025-resized.jpg)
 
-In the feature, MobiRuby will provide good wrapper APIs.
-it has some compatibility between iOS and Android.
+In this feature, MobiRuby will provide good wrapper APIs.
+It will have some compatibility between iOS and Android.
 
 When you use these APIs, you can use Cocoa APIs at the same time.
 
@@ -323,35 +320,34 @@ When you use these APIs, you can use Cocoa APIs at the same time.
 
 ![slide 26](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.026-resized.jpg)
 
-I don’t have a detailed plan. so it’s my private project.
-I don’t have a boss and marketing section.
-I aim first production level version until end of Q1 2013.
+I don’t have a detailed plan because it’s my private project.
+I don’t have a boss or marketing section.
+I aim to have the first production-level version by the end of Q1 2013.
 
-this version supports almost all Objective-C features.
+This version will support almost all Objective-C features.
 I plan to start writing API and tutorial documents.
 
-After that, I’ll touch next version. It will have wrapped APIs.
-So you can code in Ruby style.
+After that, I’ll start the next version. It will have wrapped APIs.
+So you can code in a Ruby style.
 
 
 ## Current status
 
 ![slide 27](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.027-resized.jpg)
 
-I already released MobiRuby game. Apple never reject this app.
+I have already released a MobiRuby game. Apple did not reject this app.
 
-In Sept, I finally released MobiRuby alpha version. It’s first public version.
-I’m keeping to update. Now I focus on writing test code.
+In Sept, I finally released the MobiRuby alpha version. It’s the first public version.
+I will keep updating it. Now, I want to focus on writing test code.
 Until recently, I wrote a few tests only.
-I used travis-CI from 2 weeks ago. 
+2 weeks ago, I started using Travis-CI. 
 
-I think MobiRuby’s hardest part is Thread.
-Because mruby doesn’t support Thread.
-I wrote limited thread feature and writing sample code for use cases.
+I think the hardest part is Thread because mruby doesn’t support Thread.
+I wrote a limited thread feature and some sample code for use cases.
 
 Currently, MobiRuby is not for ordinary Ruby programmers.
 If you know Objective-C and have an interest in mruby,
-Please join to this project.
+Please join this project.
 
 
 
@@ -370,16 +366,16 @@ First question, “What’s different from RubyMotion?”
 
 RubyMotion is ...
 
-* LLVM based and compile to native code.
+* LLVM-based and compiles to native code.
 * Only for iOS.
-* Extended Ruby syntax
-* Not Open source
+* Extends Ruby syntax
+* Not Open Source
 
-Maybe we have same goal.
-But approach is different.
+Maybe we have the same goal.
+But the approach is different.
 
-If you want to make app soon, I recommend to use RubyMotion.
-It’s stable and faster than current MobiRuby.
+If you want to make an app soon, I recommend using RubyMotion.
+It’s stable and faster than the current version of MobiRuby.
 
 
 ### Can I use RubyGems?
@@ -388,9 +384,9 @@ It’s stable and faster than current MobiRuby.
 
 2nd question, “Can I use RubyGems?”
 
-No, mruby doesn’t have compatibility with CRuby ext. APIs. You need to write new extension for mruby.
+No, mruby doesn’t have compatibility with the CRuby ext. APIs. You will need to write a new extension for mruby.
 
-bovi and matz has discussed about mrbgems.
+bovi and matz have discussed about mrbgems.
 
 
 ### Can I use existing Cocoa libraries?
@@ -402,7 +398,7 @@ bovi and matz has discussed about mrbgems.
 Yes, you can use almost all existing libraries.
 
 I think CocoaPods will be a good partner.
-CocoaPods is library manager for Xcode.
+CocoaPods is a library manager for Xcode.
 
 
 ### Questions?
@@ -418,9 +414,9 @@ If you have a question, please tweet to @mobiruby or post to github issues.
 ![slide 33](https://raw.github.com/masuidrive/mobiruby-rubyconf2012/master/slides/MobiRuby-RubyConf.033-resized.jpg)
 
 
-I want to team mate. I'm alone now.
+I want a teammate. I'm alone now.
 
-If you have interest to this project, please contact to me.
+If you have any interest in this project, please contact me.
 
 
 ## Thank you
